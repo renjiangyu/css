@@ -1,0 +1,107 @@
+body{
+	background: #eff0f4;
+}
+.head {
+	width: 100%;
+	height:5.5rem;
+	background: #5fc0cd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family:'STHeitiSC light',Times;
+	font-size: 32px;
+	color: #ffffff;
+	
+}
+
+.head-registered-button {
+	margin-left: 1.9rem;
+}
+
+.head-login-button {
+}
+
+.head-close-button {
+	margin-right: 1.9rem;
+	 
+}
+
+.main {
+	width: 100%;
+	height: 25rem;
+	background: #eff0f4;
+	margin-top: 1rem;
+}
+
+.main-username {
+	width: 100%;
+	height: 6.25rem; 
+	display: flex;
+	align-items: center;
+	background: #ffffff;
+}
+
+.main-username-iphone {
+	margin-left:2.6875rem; 
+}
+
+
+
+.main-username-input {
+	border-top-style: none;
+	border-right-style: none; 
+	border-bottom-style:none;
+	border-width: 2px;
+	border-left-color: #eaedee; 
+	outline: none;
+	margin-left: 2rem;
+	font-size: 2rem; 
+	text-indent: 2.6rem;
+}
+
+
+.main-password {
+	width: 100%;
+	height: 6.25rem;
+	margin-top: 1rem; 
+	display: flex;
+	align-items: center;
+	background: #ffffff;
+}
+
+.main-password-locked {
+	margin-left:2.6875rem; 
+}
+
+
+
+.main-password-input {
+	border-top-style: none;
+	border-right-style: none; 
+	border-bottom-style:none;
+	border-width: 2px;
+	border-left-color: #eaedee; 
+	outline: none;
+	margin-left: 2rem;
+	font-size: 2rem; 
+	text-indent: 43px;
+}
+
+.main-login-button {
+	width: 100%;
+	height: 6.25rem;
+	margin-top: 4.3rem;
+	background: #5fc0cd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: #ffffff;
+}
+
+.main-hint {
+	font-size: 2rem;
+	color: #5fc0cd;
+	padding-top:1.25rem;
+	float: right;
+}
